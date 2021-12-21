@@ -1,0 +1,80 @@
+/* CORE */
+
+body{
+    font-family: arial;
+    background-color: black;
+    color: #FFFF;
+}
+
+.logo-app{
+    height: fit-content;
+    width: 8rem;
+}
+
+.arrow-down{
+    width: 50px;
+}
+
+.bg-header{
+    background-image: url(../img/header.png);
+    color: white;
+    padding-bottom: 5rem;
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 46% 91%, 0% 100%);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videos{
+    background-color: gray;
+    padding: 3rem;
+    margin-top: -8rem;
+    color: #ffff;
+}
+
+.videos .text-center{
+    padding-top: 8rem;
+}
+
+.videos ul li{
+    list-style-image: url(../icon/list-unordered.PNG) !important;
+}
+
+.videos ul li::marker{
+    width: 1rem;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.testimoni .card{
+    width: fit-content;
+    margin: auto;
+}
+
+.testimoni .card img{
+    width: 400px;
+}
+
+.form-pendaftaran ul li{
+    list-style-image: url(../icon/list-unordered.PNG) !important;
+}
+
+.footer{
+    border-top: 1px solid white;
+    padding: 1rem;
+}
+
+.social-media img {
+    width: 45px;
+}
+
+.circle{
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+

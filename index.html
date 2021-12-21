@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <title>Adam Eve</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsif.css">
+</head>
+<body>
+
+    <div class="bg-header">
+        <!-- navbar -->
+        <nav class="navbar navbar-light bg-transparent mt-5 pt-3">
+            <div class="container">
+                <div class="d-flex mx-auto">
+                    <img src="img/logo.png" alt="Adam Eve" class="logo-app">
+                    <h3 class="my-auto mx-3 fw-medium">Welcome To Adam Eve Home Service</h3>
+                    <img src="img/logo.png" alt="Adam Eve" class="logo-app">
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- header -->
+        <div class="mx-5">
+            <div class="text-center mb-5">
+                <h3>Males keluar rumah tapi pingin service sepeda?</h3>
+                <h2>ADAM HOME SERVICE ADALAH SOLUSINYA</h2>
+                <h2>DENGAN PELAYANAN YANG PROFESIONAL, ANDA CUKUP HUBUNGI KAMI, KAMI DATANG, DAN BIAR KAMI YANG BERESKAN!</h2>
+                <h3>Ayo tunggu apalagi?Ada harga khusus untuk pelanggan yang mendaftar menjadi member loh!</h3>
+                <button class="btn btn-secondary btn-lg mt-5" onClick="document.getElementById('form').scrollIntoView();">
+                    <img src="img/arrow_down.png" class="arrow-down"> 
+                    DAFTAR SEKARANG 
+                    <img src="img/arrow_down.png" class="arrow-down">
+                </button>
+            </div>
+        </div>
+        <!-- end of header -->
+    </div>
+
+    <!-- Videos -->
+    <div class="videos">
+    <div class="container">
+            <div class="text-center">
+                <!-- <embed type="video/webm" src="movie.mp4" width="400" height="300"> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8BdSmMQBRs0" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <h4>Alasan mengapa anda harus home service di Adam Eve dan menjadi member</h4>
+            </div>
+            <ul>
+                <li><h4>Kami mendatangkan montir yang berpengalaman</h4></li>
+                <li><h4>Harga lebih murah dari pada pelanggan biasa</h4></li>
+                <li><h4>Tidak punya aksesoris dan sparepart? Tidak perlu bingung karena Adam Eve
+                     juga menyediakan berbagai macam aksesoris maupun sparepart yang berkualitas</h4></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end of videos -->
+
+    <!-- testimoni -->
+    <div class="container text-center p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimoni">
+                    <div class="card p-3">
+                        <img src="img/testimoni1.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimoni">
+                    <div class="card p-3">
+                        <img src="img/testimoni2.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-secondary btn-lg mt-5">
+            DAFTAR SEKARANG 
+        </button>
+    </div>
+    <!-- end of testimoni -->
+
+    <!-- form pendaftaran -->
+    <div class="container text-center">
+        <h3>Isi kolom pendaftaran dibawah ini untuk menjadwalkan service sepeda</h3>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="form-pendaftaran text-start" id="form">
+                    <form>
+                        <div class="mb-4">
+                          <ul>
+                              <li><label for="exampleInputNama" class="form-label h4 mb-0">Nama</label></li>
+                          </ul>
+                          <input type="text" class="form-control w-75" id="exampleInputEmail1" placeholder="Nama Lengkap">
+                        </div>
+                        <div class="mb-4">
+                            <ul>
+                                <li><label for="exampleInputNoHP" class="form-label h4 mb-0">No HP/WA</label></li>
+                            </ul>
+                            <input type="text" class="form-control w-50" id="exampleInputEmail1" placeholder="Nomor HP Anda">
+                        </div>
+                        <div class="mb-4">
+                            <ul>
+                                <li><label for="exampleInputEmail" class="form-label h4 mb-0">Email Aktif</label></li>
+                            </ul>
+                            <input type="email" class="form-control w-75" id="exampleInputEmail1" placeholder="Email Anda">
+                        </div>
+                        <div class="mb-4">
+                            <ul>
+                                <li><label for="exampleInputAlamat" class="form-label h4 mb-0">Alamat</label></li>
+                            </ul>
+                            <input type="email" class="form-control w-90" id="exampleInputEmail1" placeholder="Alamat">
+                        </div>
+                        <div class="mb-4">
+                            <ul>
+                                <li><label for="exampleInputJadwal" class="form-label h4 mb-0">Jadwal Service</label></li>
+                            </ul>
+                            <input type="email" class="form-control w-90" id="exampleInputEmail1" placeholder="Pukul : 08:00 – 17.00 WIB">
+                        </div>
+                        <button type="submit" class="btn btn-secondary d-block px-5 ms-auto mb-5">Booking Sekarang</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of form pendaftaran -->
+    
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-body p-5">
+                <div class="row">
+                    <div class="col-md-3 mx-auto" id="social-media">
+                        <img src="img/logo.PNG" alt="">
+                        <div class="social-media d-flex">
+                            <img src="icon/facebook.png" alt="">
+                            <img src="icon/ig.png" alt="">
+                            <img src="icon/youtube.png" alt="">
+                            <img src="icon/tokopedia.png" alt="">
+                            <img src="icon/shopie.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-auto">
+                        <h5 class="my-3">ADAM EVE GEARS</h5>
+                        <p>Adam Eve Gears merupakan supplier dan importir part, aksesoris sepeda, dan sepeda import terlengkap dan termurah. Reseller dan Dropshiper Welcome</p>
+                        <h6>Buka Setiap hari : 08.30 - 16.30 WIB</h6>
+                    </div>
+                    <div class="col-md-3 my-auto">
+                        <h5 class="my-3">KONTAK KAMI</h5>
+                        <div class="d-flex">
+                            <i class="fas fa-phone-alt circle rounded-circle me-2"></i>
+                            <p>: 083842815553</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fab fa-whatsapp circle rounded-circle me-2"></i>
+                            <p>: 083842815553</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fas fa-envelope circle rounded-circle me-2"></i>
+                            <p>: adamevegears@gmail.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fas fa-home circle rounded-circle me-2"></i>
+                            <p>: Jalan Srimahi Raya No. 11, Bandung, Jawa Barat</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-auto">
+                        <h6 class="my-3">BCA : 3466000101 an PT MULTI USAHA GENERASI MILENIAL</h6>
+                        <h6>MANDIRI : 1300018687809 an RONALD SAPTAJI</h6>
+                        <div class="d-flex mt-5">
+                            <img src="img/bca.jpg" alt="" class="w-50 rounded me-3">
+                            <img src="img/mandiri.jpg" alt="" class="w-50 rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-3 px-md-5">&copy; 2021 ADAM EVE GEARS All right reserved. Published by www.ge.tc</p>
+        </div>
+    </div>
+    <!-- end of footer -->
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,110 @@
+/*
+##Device = Desktop large
+##Screen = 1600px higher resolution desktops
+*/
+
+@media (min-width: 1600px) {
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1367px) and (max-width: 1599px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 876px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo-app{
+    width: 3rem !important;
+  }
+  .bg-header .mx-5{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  .arrow-down {
+    width: 30px;
+  }
+  .btn.mt-5{
+    margin-top: 1rem !important;
+  }
+  .bg-header{
+    padding-bottom: 7rem;
+  }
+  .videos{
+    margin-top: -9rem;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+  iframe{
+    width: 100%;
+    height: 200px;
+  }
+  .testimoni .card img {
+    width: 100%;
+  }
+  .testimoni .card{
+    margin-bottom: 1rem;
+  }
+  .form-pendaftaran .ms-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .form-pendaftaran .form-control.w-75, .form-pendaftaran .form-control.w-50, .form-pendaftaran .form-control.w-90{
+    width: 100% !important;
+  }
+  .footer-body.p-5{
+    padding: 1rem !important;
+  }
+  #social-media{
+    width: fit-content;
+  }
+}
